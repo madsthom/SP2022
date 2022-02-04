@@ -10,5 +10,7 @@ using namespace std;
 
 void swap_ends(int arr[], int size);
 void swap_ends(vector<int>& arr);
+void swap_ends_static_buf(int arr[], int size);
+void swap_ends_dyn_buf(int arr[], int size);
 
 #endif //SP2022_LEC1_H
