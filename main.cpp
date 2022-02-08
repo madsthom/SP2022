@@ -8,7 +8,7 @@ constexpr int arr_size = 10'000;
 vector<int> vec(arr_size);
 int c_arr[arr_size];
 
-int main2() {
+int main() {
     for (int i = 0; i < arr_size; i++) {
         c_arr[i] = i;
     }
